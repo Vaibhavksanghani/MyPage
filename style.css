@@ -1,0 +1,115 @@
+/*---------------------------tags--------------------------------*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+h1{
+    margin: 40px auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.3rem;
+    color: #1B262C;
+}
+h2{
+    color: #1B262C;
+}
+h3 {
+    color: #1B262C;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+}
+hr {
+    width: 5%;
+    border: dotted grey 8px;
+    border-bottom: none;
+    margin: 40px auto;
+}
+a {
+    text-decoration: none;
+    color: #1B262C;
+    padding: 0 20px;    
+}
+a:hover {
+    color: red;
+}
+
+
+/*-----------------------class-------------------------------------*/
+.images{
+    transition: 1s ease;
+}
+.images:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.main {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #1B262C;
+}
+.top {
+    background-color: #BBE1FA;
+    position: relative;
+    padding-top: 80px;
+}
+.middle {
+    padding-top: 10px;
+    background-color:lightskyblue ; 
+}
+.bottom {
+    background-color: #3282B8;
+    padding: 20px 0 5px;
+}
+.cloud {
+    position: absolute;
+    right: 250px;
+    top: 0;
+    block-size: 150px;
+}
+.cloud2 {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    block-size: 150px;
+}
+.mountain {
+    block-size: 380px;
+}
+.dev {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.movie {
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+.skill-row {
+    width: 50%;
+    margin: 40px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.profile {
+    width: 50%;
+    margin: 40px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.profile-img {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.contact-me {
+    padding-bottom: 20px;
+}
+.copyright {
+    font-size: 0.75rem;
+    color :whitesmoke
+}
